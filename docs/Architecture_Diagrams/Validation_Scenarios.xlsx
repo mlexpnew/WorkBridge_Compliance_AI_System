@@ -1,0 +1,22 @@
+| ID | Regulator | Scenario                         | Trigger                                      | Agents Involved                            | Severity | Escalation | Expected Outcome                 |
+| -- | --------- | -------------------------------- | -------------------------------------------- | ------------------------------------------ | -------- | ---------- | -------------------------------- |
+| 1  | SEC       | Off-channel communication        | Employee uses WhatsApp for trade discussions | Communication Scanner                      | Critical | Yes        | Case opened and escalated        |
+| 2  | SEC       | Deleted communication records    | Missing archived emails/chats                | Communication Scanner                      | High     | Yes        | Recordkeeping violation detected |
+| 3  | SEC       | Insider trading discussion       | Suspicious chat before announcement          | Communication Scanner, Transaction Monitor | Critical | Yes        | Immediate investigation          |
+| 4  | SEC       | Misleading product marketing     | False claims in customer communication       | Communication Scanner                      | High     | Yes        | Compliance review                |
+| 5  | SEC       | Model governance failure         | Unapproved model modification                | Regulatory Tracker                         | High     | Yes        | Governance escalation            |
+| 6  | FCA       | Incorrect transaction reporting  | Missing mandatory reporting fields           | Transaction Monitor                        | High     | Yes        | Reporting violation detected     |
+| 7  | FCA       | Late regulatory reporting        | Reporting deadline missed                    | Transaction Monitor                        | Medium   | Yes        | Escalation to compliance         |
+| 8  | FCA       | AML monitoring failure           | AML alerts ignored                           | Transaction Monitor                        | Critical | Yes        | High-risk investigation          |
+| 9  | FCA       | Control framework breakdown      | Repeated unresolved alerts                   | Transaction Monitor, Report Generator      | High     | Yes        | Senior review                    |
+| 10 | FCA       | Market abuse indicator           | Abnormal trading pattern                     | Transaction Monitor                        | Critical | Yes        | Trading investigation            |
+| 11 | FINRA     | TRACE reporting error            | Incorrect bond reporting                     | Transaction Monitor                        | High     | Yes        | Reporting escalation             |
+| 12 | FINRA     | Books and records violation      | Missing customer records                     | Communication Scanner                      | High     | Yes        | Audit review                     |
+| 13 | FINRA     | Supervisory failure              | Required approvals bypassed                  | Regulatory Tracker                         | High     | Yes        | Management escalation            |
+| 14 | FINRA     | Unapproved communication channel | Personal messaging app usage                 | Communication Scanner                      | Critical | Yes        | Compliance investigation         |
+| 15 | FINRA     | Unsuitable recommendation        | Risky product sold to customer               | Communication Scanner                      | High     | Yes        | Conduct review                   |
+| 16 | OFAC      | Sanctioned counterparty          | Entity appears on OFAC list                  | Transaction Monitor                        | Critical | Yes        | Immediate escalation             |
+| 17 | OFAC      | Indirect sanctions exposure      | Intermediary linked to sanctioned entity     | Transaction Monitor                        | Critical | Yes        | Enhanced due diligence           |
+| 18 | OFAC      | Cross-border payment risk        | Payment routed through restricted region     | Transaction Monitor                        | Critical | Yes        | Sanctions investigation          |
+| 19 | OFAC      | High-risk jurisdiction exposure  | Customer linked to restricted geography      | Transaction Monitor                        | High     | Yes        | Compliance escalation            |
+| 20 | OFAC      | Sanctions screening failure      | Blocked entity not detected                  | Transaction Monitor                        | Critical | Yes        | Critical incident review         |
