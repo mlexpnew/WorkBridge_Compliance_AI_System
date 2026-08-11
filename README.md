@@ -1,4 +1,4 @@
-# Production-Grade Multi-Agent AI System for Regulatory Compliance Monitoring
+WorkBridge-Compliance-AI-System
 
 ## Overview
 
